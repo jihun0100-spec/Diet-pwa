@@ -2,23 +2,24 @@
   "name": "식단 분석기",
   "short_name": "식단",
   "description": "AI 기반 식단 & 영양소 추적 앱",
-  "start_url": "/",
+  "start_url": "/Diet-pwa/",
   "display": "standalone",
   "background_color": "#0C0C0E",
   "theme_color": "#0C0C0E",
   "orientation": "portrait",
   "icons": [
     {
-      "src": "icon-192.png",
+      "src": "/Diet-pwa/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "icon-512.png",
+      "src": "/Diet-pwa/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     }
-  ]
+  ],
+  "scope": "/Diet-pwa/"
 }

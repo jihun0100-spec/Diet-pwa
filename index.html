@@ -7,8 +7,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
   <meta name="apple-mobile-web-app-title" content="식단 분석기"/>
   <meta name="theme-color" content="#0C0C0E"/>
-  <link rel="manifest" href="manifest.json"/>
-  <link rel="apple-touch-icon" href="icon-192.png"/>
+  <link rel="manifest" href="/Diet-pwa/manifest.json"/>
+  <link rel="apple-touch-icon" href="/Diet-pwa/icon-192.png"/>
   <title>식단 분석기</title>
   <style>
     :root {
@@ -784,7 +784,7 @@ function checkInstallable() {
 
 // ── Service Worker ─────────────────────────────────────────────────────────────
 if("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("/sw.js").catch(()=>{});
+  navigator.serviceWorker.register("/Diet-pwa/sw.js", {scope: "/Diet-pwa/"}).catch(()=>{});
 }
 
 // ── Boot ───────────────────────────────────────────────────────────────────────
